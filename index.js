@@ -11,7 +11,7 @@ const form = document.querySelector("form");
 form.addEventListener("submit", search);
 
 // Default Location
-let target = "delhi";
+let target = "Bangalore";
 
 // Function to fetch Data from Weather API
 const fetchData = async (target) => {
